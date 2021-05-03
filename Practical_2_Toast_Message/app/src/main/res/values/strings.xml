@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Practical_2_Toast_Message</string>
+    <string name="open_to_toast">Open to Toast</string>
+    <string name="enter_your_name">Enter your Name</string>
+</resources>
