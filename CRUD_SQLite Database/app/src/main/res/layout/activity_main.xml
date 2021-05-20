@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Enter ID"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#737039"
+        android:hint="Add Data"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_View"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#2F79D5"
+        android:hint="View Data"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_Update"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#C17330"
+        android:hint="Update Data"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_Delete"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#D61616"
+        android:hint="Delete Data"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_Clear"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#151313"
+        android:hint="Clear Data"
+        android:onClick="clearData"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
